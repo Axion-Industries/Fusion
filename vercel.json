@@ -2,8 +2,8 @@
   "version": 2,
   "redirects": [
     {
-      "source": "/company",
-      "destination": "/company/index.html",
+      "source": "/company/index.html",
+      "destination": "/company",
       "permanent": true
     },
     {
@@ -33,7 +33,15 @@
       "destination": "/company/index.html"
     },
     {
+      "source": "/company/",
+      "destination": "/company/index.html"
+    },
+    {
       "source": "/en",
+      "destination": "/en/index.html"
+    },
+    {
+      "source": "/en/",
       "destination": "/en/index.html"
     },
     {
@@ -41,7 +49,19 @@
       "destination": "/jp/index.html"
     },
     {
+      "source": "/jp/",
+      "destination": "/jp/index.html"
+    },
+    {
       "source": "/:section((?!company|en|jp)[^/]+)",
+      "destination": "/:section/index.html"
+    },
+    {
+      "source": "/:section((?!company|en|jp)[^/]+)",
+      "destination": "/:section/index.html"
+    },
+    {
+      "source": "/:section((?!company|en|jp)[^/]+)/",
       "destination": "/:section/index.html"
     },
     {
