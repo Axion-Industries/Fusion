@@ -3,7 +3,7 @@
   "redirects": [
     {
       "source": "/company",
-      "destination": "/company/index.html",
+      "destination": "/company",
       "permanent": true
     },
     {
@@ -11,11 +11,7 @@
       "destination": "/en",
       "permanent": true
     },
-    {
-      "source": "/company/",
-      "destination": "/company/index.html",
-      "permanent": true
-    },
+
     {
       "source": "/jp/index.html",
       "destination": "/jp",
@@ -34,7 +30,7 @@
   ],
   "rewrites": [
     {
-      "source": "company",
+      "source": "/company",
       "destination": "/company/index.html"
     },
     {
