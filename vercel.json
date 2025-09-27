@@ -2,7 +2,6 @@
   "version": 2,
   "redirects": [
     { "source": "/company", "destination": "/company/index.html", "permanent": true },
-    { "source": "/css", "destination": "/css/index.html", "permanent": true },
     { "source": "/en", "destination": "/en/index.html", "permanent": true },
     { "source": "/en/company", "destination": "/en/company/index.html", "permanent": true },
     { "source": "/en/css", "destination": "/en/css/index.html", "permanent": true },
@@ -11,7 +10,6 @@
     { "source": "/en/news", "destination": "/en/news/index.html", "permanent": true },
     { "source": "/en/works", "destination": "/en/works/index.html", "permanent": true },
     { "source": "/entry", "destination": "/entry/index.html", "permanent": true },
-    { "source": "/images", "destination": "/images/index.html", "permanent": true },
     { "source": "/jp", "destination": "/jp/index.html", "permanent": true },
     { "source": "/jp/company", "destination": "/jp/company/index.html", "permanent": true },
     { "source": "/jp/css", "destination": "/jp/css/index.html", "permanent": true },
@@ -21,7 +19,6 @@
     { "source": "/jp/news", "destination": "/jp/news/index.html", "permanent": true },
     { "source": "/jp/recruit", "destination": "/jp/recruit/index.html", "permanent": true },
     { "source": "/jp/works", "destination": "/jp/works/index.html", "permanent": true },
-    { "source": "/js", "destination": "/js/index.html", "permanent": true },
     { "source": "/news", "destination": "/news/index.html", "permanent": true },
     { "source": "/recruit", "destination": "/recruit/index.html", "permanent": true },
     { "source": "/works", "destination": "/works/index.html", "permanent": true },
@@ -30,9 +27,6 @@
   "rewrites": [
     { "source": "/company", "destination": "/company/index.html" },
     { "source": "/company/index.html", "destination": "/company" },
-
-    { "source": "/css", "destination": "/css/index.html" },
-    { "source": "/css/index.html", "destination": "/css" },
 
     { "source": "/en", "destination": "/en/index.html" },
     { "source": "/en/index.html", "destination": "/en" },
@@ -57,9 +51,6 @@
 
     { "source": "/entry", "destination": "/entry/index.html" },
     { "source": "/entry/index.html", "destination": "/entry" },
-
-    { "source": "/images", "destination": "/images/index.html" },
-    { "source": "/images/index.html", "destination": "/images" },
 
     { "source": "/jp", "destination": "/jp/index.html" },
     { "source": "/jp/index.html", "destination": "/jp" },
@@ -87,9 +78,6 @@
 
     { "source": "/jp/works", "destination": "/jp/works/index.html" },
     { "source": "/jp/works/index.html", "destination": "/jp/works" },
-
-    { "source": "/js", "destination": "/js/index.html" },
-    { "source": "/js/index.html", "destination": "/js" },
 
     { "source": "/news", "destination": "/news/index.html" },
     { "source": "/news/index.html", "destination": "/news" },
