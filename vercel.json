@@ -2,32 +2,51 @@
   "version": 2,
   "redirects": [
     {
-      "source": "/index.html",
-      "destination": "/",
+      "source": "/company/index.html",
+      "destination": "/company",
       "permanent": true
     },
     {
-      "source": "/:path*/index.html",
-      "destination": "/:path*",
+      "source": "/en/index.html",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/jp/index.html",
+      "destination": "/jp",
+      "permanent": true
+    },
+    {
+      "source": "/:section((?!company|en|jp)[^/]+)/index.html",
+      "destination": "/:section",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
       "permanent": true
     }
   ],
   "rewrites": [
     {
+      "source": "/company",
+      "destination": "/company/index.html"
+    },
+    {
+      "source": "/en",
+      "destination": "/en/index.html"
+    },
+    {
+      "source": "/jp",
+      "destination": "/jp/index.html"
+    },
+    {
+      "source": "/:section((?!company|en|jp)[^/]+)",
+      "destination": "/:section/index.html"
+    },
+    {
       "source": "/",
       "destination": "/index.html"
-    },
-
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept",
-          "value": "text/html"
-        }
-      ],
-      "destination": "/:path*/index.html"
     }
   ]
 }
