@@ -29,8 +29,8 @@
   ],
   "rewrites": [
     {
-      "source": "/company/index.html",
-      "destination": "/company"
+      "source": "/company",
+      "destination": "/company/index.html"
     },
     {
       "source": "/en",
