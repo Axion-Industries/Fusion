@@ -1,7 +1,11 @@
 {
   "version": 2,
   "redirects": [
-
+    {
+      "source": "/company",
+      "destination": "/company/index.html",
+      "permanent": true
+    },
     {
       "source": "/en/index.html",
       "destination": "/en",
