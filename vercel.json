@@ -34,7 +34,7 @@
   ],
   "rewrites": [
     {
-      "source": "/company",
+      "source": "company",
       "destination": "/company/index.html"
     },
     {
