@@ -2,93 +2,106 @@
   "version": 2,
   "redirects": [
     { "source": "/company", "destination": "/company/index.html", "permanent": true },
+    { "source": "/company/index.html", "destination": "/company", "permanent": true },
+    { "source": "/:section((?!company|en|jp)[^/]+)/index.html", "destination": "/:section", "permanent": true },
+
     { "source": "/en", "destination": "/en/index.html", "permanent": true },
-    { "source": "/en/company", "destination": "/en/company/index.html", "permanent": true },
-    { "source": "/en/css", "destination": "/en/css/index.html", "permanent": true },
-    { "source": "/en/images", "destination": "/en/images/index.html", "permanent": true },
-    { "source": "/en/js", "destination": "/en/js/index.html", "permanent": true },
-    { "source": "/en/news", "destination": "/en/news/index.html", "permanent": true },
-    { "source": "/en/works", "destination": "/en/works/index.html", "permanent": true },
-    { "source": "/entry", "destination": "/entry/index.html", "permanent": true },
+    { "source": "/en/index.html", "destination": "/en", "permanent": true },
     { "source": "/jp", "destination": "/jp/index.html", "permanent": true },
-    { "source": "/jp/company", "destination": "/jp/company/index.html", "permanent": true },
-    { "source": "/jp/css", "destination": "/jp/css/index.html", "permanent": true },
-    { "source": "/jp/entry", "destination": "/jp/entry/index.html", "permanent": true },
-    { "source": "/jp/images", "destination": "/jp/images/index.html", "permanent": true },
-    { "source": "/jp/js", "destination": "/jp/js/index.html", "permanent": true },
-    { "source": "/jp/news", "destination": "/jp/news/index.html", "permanent": true },
-    { "source": "/jp/recruit", "destination": "/jp/recruit/index.html", "permanent": true },
-    { "source": "/jp/works", "destination": "/jp/works/index.html", "permanent": true },
+    { "source": "/jp/index.html", "destination": "/jp", "permanent": true },
+
+    { "source": "/entry", "destination": "/entry/index.html", "permanent": true },
+    { "source": "/entry/index.html", "destination": "/entry", "permanent": true },
     { "source": "/news", "destination": "/news/index.html", "permanent": true },
+    { "source": "/news/index.html", "destination": "/news", "permanent": true },
     { "source": "/recruit", "destination": "/recruit/index.html", "permanent": true },
+    { "source": "/recruit/index.html", "destination": "/recruit", "permanent": true },
     { "source": "/works", "destination": "/works/index.html", "permanent": true },
-    { "source": "/", "destination": "/index.html", "permanent": true }
+    { "source": "/works/index.html", "destination": "/works", "permanent": true },
+
+    { "source": "/en/company", "destination": "/en/company/index.html", "permanent": true },
+    { "source": "/en/company/index.html", "destination": "/en/company", "permanent": true },
+    { "source": "/en/news", "destination": "/en/news/index.html", "permanent": true },
+    { "source": "/en/news/index.html", "destination": "/en/news", "permanent": true },
+    { "source": "/en/works", "destination": "/en/works/index.html", "permanent": true },
+    { "source": "/en/works/index.html", "destination": "/en/works", "permanent": true },
+
+    { "source": "/jp/company", "destination": "/jp/company/index.html", "permanent": true },
+    { "source": "/jp/company/index.html", "destination": "/jp/company", "permanent": true },
+    { "source": "/jp/entry", "destination": "/jp/entry/index.html", "permanent": true },
+    { "source": "/jp/entry/index.html", "destination": "/jp/entry", "permanent": true },
+    { "source": "/jp/news", "destination": "/jp/news/index.html", "permanent": true },
+    { "source": "/jp/news/index.html", "destination": "/jp/news", "permanent": true },
+    { "source": "/jp/recruit", "destination": "/jp/recruit/index.html", "permanent": true },
+    { "source": "/jp/recruit/index.html", "destination": "/jp/recruit", "permanent": true },
+    { "source": "/jp/works", "destination": "/jp/works/index.html", "permanent": true },
+    { "source": "/jp/works/index.html", "destination": "/jp/works", "permanent": true },
+
+    { "source": "/index.html", "destination": "/", "permanent": true }
   ],
   "rewrites": [
     { "source": "/company", "destination": "/company/index.html" },
     { "source": "/company/index.html", "destination": "/company" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
 
     { "source": "/en", "destination": "/en/index.html" },
     { "source": "/en/index.html", "destination": "/en" },
-
-    { "source": "/en/company", "destination": "/en/company/index.html" },
-    { "source": "/en/company/index.html", "destination": "/en/company" },
-
-    { "source": "/en/css", "destination": "/en/css/index.html" },
-    { "source": "/en/css/index.html", "destination": "/en/css" },
-
-    { "source": "/en/images", "destination": "/en/images/index.html" },
-    { "source": "/en/images/index.html", "destination": "/en/images" },
-
-    { "source": "/en/js", "destination": "/en/js/index.html" },
-    { "source": "/en/js/index.html", "destination": "/en/js" },
-
-    { "source": "/en/news", "destination": "/en/news/index.html" },
-    { "source": "/en/news/index.html", "destination": "/en/news" },
-
-    { "source": "/en/works", "destination": "/en/works/index.html" },
-    { "source": "/en/works/index.html", "destination": "/en/works" },
-
-    { "source": "/entry", "destination": "/entry/index.html" },
-    { "source": "/entry/index.html", "destination": "/entry" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
 
     { "source": "/jp", "destination": "/jp/index.html" },
     { "source": "/jp/index.html", "destination": "/jp" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
 
-    { "source": "/jp/company", "destination": "/jp/company/index.html" },
-    { "source": "/jp/company/index.html", "destination": "/jp/company" },
-
-    { "source": "/jp/css", "destination": "/jp/css/index.html" },
-    { "source": "/jp/css/index.html", "destination": "/jp/css" },
-
-    { "source": "/jp/entry", "destination": "/jp/entry/index.html" },
-    { "source": "/jp/entry/index.html", "destination": "/jp/entry" },
-
-    { "source": "/jp/images", "destination": "/jp/images/index.html" },
-    { "source": "/jp/images/index.html", "destination": "/jp/images" },
-
-    { "source": "/jp/js", "destination": "/jp/js/index.html" },
-    { "source": "/jp/js/index.html", "destination": "/jp/js" },
-
-    { "source": "/jp/news", "destination": "/jp/news/index.html" },
-    { "source": "/jp/news/index.html", "destination": "/jp/news" },
-
-    { "source": "/jp/recruit", "destination": "/jp/recruit/index.html" },
-    { "source": "/jp/recruit/index.html", "destination": "/jp/recruit" },
-
-    { "source": "/jp/works", "destination": "/jp/works/index.html" },
-    { "source": "/jp/works/index.html", "destination": "/jp/works" },
+    { "source": "/entry", "destination": "/entry/index.html" },
+    { "source": "/entry/index.html", "destination": "/entry" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
 
     { "source": "/news", "destination": "/news/index.html" },
     { "source": "/news/index.html", "destination": "/news" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
 
     { "source": "/recruit", "destination": "/recruit/index.html" },
     { "source": "/recruit/index.html", "destination": "/recruit" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
 
     { "source": "/works", "destination": "/works/index.html" },
     { "source": "/works/index.html", "destination": "/works" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
+
+    { "source": "/en/company", "destination": "/en/company/index.html" },
+    { "source": "/en/company/index.html", "destination": "/en/company" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
+
+    { "source": "/en/news", "destination": "/en/news/index.html" },
+    { "source": "/en/news/index.html", "destination": "/en/news" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
+
+    { "source": "/en/works", "destination": "/en/works/index.html" },
+    { "source": "/en/works/index.html", "destination": "/en/works" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
+
+    { "source": "/jp/company", "destination": "/jp/company/index.html" },
+    { "source": "/jp/company/index.html", "destination": "/jp/company" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
+
+    { "source": "/jp/entry", "destination": "/jp/entry/index.html" },
+    { "source": "/jp/entry/index.html", "destination": "/jp/entry" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
+
+    { "source": "/jp/news", "destination": "/jp/news/index.html" },
+    { "source": "/jp/news/index.html", "destination": "/jp/news" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
+
+    { "source": "/jp/recruit", "destination": "/jp/recruit/index.html" },
+    { "source": "/jp/recruit/index.html", "destination": "/jp/recruit" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
+
+    { "source": "/jp/works", "destination": "/jp/works/index.html" },
+    { "source": "/jp/works/index.html", "destination": "/jp/works" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" },
 
     { "source": "/", "destination": "/index.html" },
-    { "source": "/index.html", "destination": "/" }
+    { "source": "/index.html", "destination": "/" },
+    { "source": "/:section((?!company|en|jp)[^/]+)", "destination": "/:section/index.html" }
   ]
 }
