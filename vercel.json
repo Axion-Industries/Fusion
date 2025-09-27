@@ -7,8 +7,8 @@
       "permanent": true
     },
     {
-      "source": "/en/index.html",
-      "destination": "/en",
+      "source": "/company/index.html",
+      "destination": "/company",
       "permanent": true
     },
     {
