@@ -3,23 +3,23 @@
   "redirects": [
     { "source": "/index.html", "destination": "/", "permanent": true },
 
-    { "source": "/company/index.html", "destination": "/company", "permanent": true },
-    { "source": "/news/index.html", "destination": "/news", "permanent": true },
-    { "source": "/works/index.html", "destination": "/works", "permanent": true },
-    { "source": "/recruit/index.html", "destination": "/recruit", "permanent": true },
-    { "source": "/entry/index.html", "destination": "/entry", "permanent": true },
+  { "source": "/company", "destination": "/company/index.html", "permanent": true },
+  { "source": "/news", "destination": "/news/index.html", "permanent": true },
+  { "source": "/works", "destination": "/works/index.html", "permanent": true },
+  { "source": "/recruit", "destination": "/recruit/index.html", "permanent": true },
+  { "source": "/entry", "destination": "/entry/index.html", "permanent": true },
 
-    { "source": "/en/index.html", "destination": "/en", "permanent": true },
-    { "source": "/en/company/index.html", "destination": "/en/company", "permanent": true },
-    { "source": "/en/news/index.html", "destination": "/en/news", "permanent": true },
-    { "source": "/en/works/index.html", "destination": "/en/works", "permanent": true },
+  { "source": "/en", "destination": "/en/index.html", "permanent": true },
+  { "source": "/en/company", "destination": "/en/company/index.html", "permanent": true },
+  { "source": "/en/news", "destination": "/en/news/index.html", "permanent": true },
+  { "source": "/en/works", "destination": "/en/works/index.html", "permanent": true },
 
-    { "source": "/jp/index.html", "destination": "/jp", "permanent": true },
-    { "source": "/jp/company/index.html", "destination": "/jp/company", "permanent": true },
-    { "source": "/jp/entry/index.html", "destination": "/jp/entry", "permanent": true },
-    { "source": "/jp/news/index.html", "destination": "/jp/news", "permanent": true },
-    { "source": "/jp/recruit/index.html", "destination": "/jp/recruit", "permanent": true },
-    { "source": "/jp/works/index.html", "destination": "/jp/works", "permanent": true }
+  { "source": "/jp", "destination": "/jp/index.html", "permanent": true },
+  { "source": "/jp/company", "destination": "/jp/company/index.html", "permanent": true },
+  { "source": "/jp/entry", "destination": "/jp/entry/index.html", "permanent": true },
+  { "source": "/jp/news", "destination": "/jp/news/index.html", "permanent": true },
+  { "source": "/jp/recruit", "destination": "/jp/recruit/index.html", "permanent": true },
+  { "source": "/jp/works", "destination": "/jp/works/index.html", "permanent": true }
   ],
 
   "rewrites": [
