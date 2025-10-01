@@ -1,3 +1,8 @@
+
+// Vercel Analytics
+import { inject } from "@vercel/analytics";
+inject();
+
 var sct = $(window).scrollTop();
 var ww = $(window).innerWidth();
 var wh = $(window).innerHeight();
