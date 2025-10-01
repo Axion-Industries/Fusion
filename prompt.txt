@@ -1,1 +1,1 @@
-edit every single index.html file in the website, update the website tab title to say 融合Fusion
+edit ALL the index.html files on the website, make sure they all show favicon.png (or favicon.ico whichever is better), make sure it shows up on the websiet tab title every single time as the favicon. Once you've ensured that, make it so that the website checks the users system/browser theme, if its dark mode, make the favicon appear only white, and if the browser is default (white) make it appear normally.
